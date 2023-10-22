@@ -6,4 +6,10 @@ Full guide here: <https://stripe.com/docs/terminal/quickstart>
 
 ## Getting started
 
-- Clone project: `git clone`
+- Clone project: `git clone https://github.com/amjedidiah/stripe_terminal_wisepose`
+- Open project: `cd stripe_terminal_wisepose`
+- Install dependencies: `npm install`
+- Start client: `npm run client`
+- Start server: `npm run server`
+
+Open client server address in browser to view
