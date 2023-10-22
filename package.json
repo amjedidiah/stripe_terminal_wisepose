@@ -1,0 +1,22 @@
+{
+  "name": "stripe_terminal_wisepose",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon server.js",
+    "preclient": "rm -rf dist .parcel-cache",
+    "client": "parcel client/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "parcel": "^2.10.0",
+    "stripe": "^14.1.0"
+  },
+  "devDependencies": {}
+}
